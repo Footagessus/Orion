@@ -295,8 +295,6 @@ CreateElement("TFrame", function()
 	return TFrame
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
-
 CreateElement("Frame", function(Color)
 	local Frame = Create("Frame", {
 		BackgroundColor3 = Color or Color3.fromRGB(255, 255, 255),
@@ -1766,3 +1764,5 @@ function OrionLib:Destroy()
 end
 
 return OrionLib
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
