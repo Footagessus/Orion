@@ -1710,8 +1710,6 @@ function OrionLib:MakeWindow(WindowConfig)
 		end
 		return ElementFunction   
 	end
-
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
 	
 	--if writefile and isfile then
 	--	if not isfile("NewLibraryNotification1.txt") then
