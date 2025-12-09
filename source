@@ -1660,8 +1660,6 @@ function OrionLib:MakeWindow(WindowConfig)
 				SectionFrame.Holder.Size = UDim2.new(1, 0, 0, SectionFrame.Holder.UIListLayout.AbsoluteContentSize.Y)
 			end)
 
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
-
 			local SectionFunction = {}
 			for i, v in next, GetElements(SectionFrame.Holder) do
 				SectionFunction[i] = v 
@@ -1711,7 +1709,9 @@ function OrionLib:MakeWindow(WindowConfig)
 			})
 		end
 		return ElementFunction   
-	end  
+	end
+
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebulla-Softworks/Luna-Interface/refs/heads/main/source.lua"))()
 	
 	--if writefile and isfile then
 	--	if not isfile("NewLibraryNotification1.txt") then
